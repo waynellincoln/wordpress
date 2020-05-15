@@ -1,3 +1,6 @@
+<?php get_header();?>
+
+
 <?php
 
 while(have_posts()) {
@@ -10,3 +13,9 @@ while(have_posts()) {
      <hr>
   
 <?php } ?>
+
+
+<?php get_footer();?>
+
+
+
